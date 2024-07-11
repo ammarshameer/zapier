@@ -4,6 +4,7 @@ import NavBar from './Components/Nav-Bar/NavBar';
 import  Hero  from "./Components/Hero-Section/Hero";
 import HomePageVideo1 from "./Components/HomePageVideo1/Video1"
 import ScrollRight from './Components/ScrollRight/ScrollRight';
+import Templates from './Components/Templates/Templates';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
    <Hero/>
    <HomePageVideo1/>
    <ScrollRight/>
+   <Templates/>
    </>
   );
 }

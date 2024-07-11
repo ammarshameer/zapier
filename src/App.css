@@ -1,5 +1,5 @@
-*{
-  font-family: "Degular",Helvetica,arial,sans-serif;
+* {
+  font-family: "Degular", Helvetica, arial, sans-serif;
 }
 .App {
   text-align: center;
@@ -30,62 +30,61 @@
 .App-link {
   color: #61dafb;
 }
-.navContainer{
+.navContainer {
   width: 94%;
   margin: auto;
 }
 
-.nav-div{
+.nav-div {
   display: flex;
   justify-content: space-between;
   width: 85.5vw;
   color: #000;
   font-size: 1rem;
 }
-.signUpBtn{
+.signUpBtn {
   color: white;
   background-color: #ff4f00;
   border-radius: 2.1rem;
   font-size: 1.2rem;
   font-weight: bold;
-  padding:0 1rem;
+  padding: 0 1rem;
   border: none;
 }
-@media (max-width:1100px){
-  .navContainer{
+@media (max-width: 1100px) {
+  .navContainer {
     width: 100%;
   }
-  .nav-div{
-  width: 90vw;
+  .nav-div {
+    width: 90vw;
   }
 }
-@media (max-width:768px){
-  .navContainer{
+@media (max-width: 768px) {
+  .navContainer {
     width: 90%;
   }
-  .nav-div{
-  width: 90vw;
-  justify-content: center;
-  flex-direction: column;
+  .nav-div {
+    width: 90vw;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 /* ------------------------ */
 /* -----HeroSecton----- */
-.heroDiv{
+.heroDiv {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  margin: 5rem auto 0 ;
+  margin: 5rem auto 0;
   width: 70%;
 }
-.fontSize{
+.fontSize {
   font-size: 4rem;
   font-weight: 900;
-  
 }
-.paraDiv p{
+.paraDiv p {
   font-size: 24px;
   font-weight: 500;
   margin: 1rem 0;
@@ -103,20 +102,20 @@
 .rotating-span.active {
   display: inline;
 }
-.googleBtn{
+.googleBtn {
   font-size: 1.2rem;
   font-weight: bold;
-  padding:0.4rem 2rem;
+  padding: 0.4rem 2rem;
   border-radius: 2.1rem;
   border: none;
 }
-.emailBtn{
+.emailBtn {
   color: white;
   background-color: #ff4f00;
   border-radius: 2.1rem;
   font-size: 1.2rem;
   font-weight: bold;
-  padding:0.4rem 2rem;
+  padding: 0.4rem 2rem;
   border: none;
 }
 /* ----------------------------- */
@@ -124,19 +123,19 @@
 
 .scroller-wrapper {
   overflow: hidden;
-  width: 100%; 
+  width: 100%;
   position: relative;
-  margin:   3rem 0;
+  margin: 3rem 0;
 }
 
 .scroller {
   display: flex;
-  width: calc(200%); 
+  width: calc(200%);
   animation: scroll 25s linear infinite;
 }
 
 .scroller img {
-  width: 90px; 
+  width: 90px;
   flex-shrink: 0;
   margin: 0 50px;
   height: 30px;
@@ -151,4 +150,86 @@
   }
 }
 
+/* ---------------------- */
+/* -----Templates--------- */
+.templateDiv {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.templateDiv h1 {
+  font-size: 4rem;
+}
+.templateDiv p {
+  font-size: 1.5rem;
+}
+.templateDiv p span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btnSpan {
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+.btnSpan span {
+  border: 1px solid #000;
+  padding: 0.2rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.templateCardParentDiv {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: auto;
+}
+.templateCardDiv {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  border: 1px solid #a3a3a3;
+  border-radius: 0.8rem;
+}
+.templateCardDiv:hover {
+  border: 1px solid #000;
+  border-radius: 0.8rem;
+  transition: 10ms;
+}
+.arrowRight{
+  margin: 0 0 0 2px;
+  transition: margin 200ms ease;
+  font-weight: 500 !important;
+}
+.templateCardDiv:hover .ankerTag {
+  text-decoration: none;
 
+}
+.templateCardDiv:hover .arrowRight {
+  margin: 0 0 0 10px;
+}
+.templateCardDiv > img {
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.temContentDiv {
+  margin: 2rem;
+}
+.temContentDiv a {
+  color: #000;
+}
+.btnDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.templatesBtn{
+  color: #ffff;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  padding: 0.4rem 1.8rem;
+  border-radius: 1.6rem;
+  border: 1px solid #2b2358;
+  background-color: #2b2358;
+}
