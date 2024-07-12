@@ -58,7 +58,7 @@ const ScrollRight = () => {
             scroller.scrollLeft += 1;
           }
         };
-        const intervalId = setInterval(scroll, 25); 
+        const intervalId = setInterval(scroll, 40); 
 
     return () => clearInterval(intervalId);
   }, []);

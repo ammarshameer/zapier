@@ -5,6 +5,7 @@ import  Hero  from "./Components/Hero-Section/Hero";
 import HomePageVideo1 from "./Components/HomePageVideo1/Video1"
 import ScrollRight from './Components/ScrollRight/ScrollRight';
 import Templates from './Components/Templates/Templates';
+import FixedImageScroll from './Components/FixedImageScroll/FixedImageScroll';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
    <HomePageVideo1/>
    <ScrollRight/>
    <Templates/>
+   <FixedImageScroll/>
    </>
   );
 }
