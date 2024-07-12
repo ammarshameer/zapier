@@ -14,17 +14,6 @@ import image10 from './Images/TemImage4_logo.avif'
 
 
 const Templates = () => {
-    // const images=[
-    //     image1,
-    //     image2,
-    //     image3,
-    //     image4,
-    //     image5,
-    //     image6,
-    //     image7,
-    //     image8,
-    //     image9
-    // ]
   return (
     <div className="mt-5">
       <div className="templateDiv">
