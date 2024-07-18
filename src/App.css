@@ -271,8 +271,8 @@
   max-width: 500px;
   /* max-height: calc(100vh - 40px); */
   object-fit: cover;
-  opacity: 0;
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  /* opacity: 0; */
+  transition: opacity 1s ease-in-out;
 }
 
 .image-container .image.visible {
@@ -305,5 +305,173 @@
 .content p{
   font-size: 1.4rem;
 }
+/* ---------------------- */
+/* -----BuilderBlock--------- */
+.backgroundColor{
+  background-color: #2b2358;
+  color: #fff;
+}
+.builderDiv{
+width: 90%;
+margin: 5rem auto;
+padding: 5rem  0;
+}
+.builderDiv > h1{
+  text-align: center;
+  font-size: 3.38rem;
+}
+.tagImageDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+  width: 80%;
+}
+.tagImageDiv img{
+  width: 115px;
+}
+.customerDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+.customerDiv div{
+  border: 1px solid #a3a3a3;
+  border-radius: 1rem;
+  width: 28%;
+  padding: 1.5rem;
+}
+.customerDiv div h1{
+  font-size: 6.5rem;
+  line-height: 4.5rem;
+}
+.customerDiv div p{
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+/* ---------------------- */
+/* -----ZapierLogo--------- */
+.zapierImgDiv{
+  width: 90%;
+  margin: auto;
+}
+.zapierImgDiv > img{
+  width: 100%;
+}
+/* ---------------------- */
+/* -----Footer--------- */
+.letter-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; 
+  margin: 0px 20px 20px 20px; 
+}
+.letter,.letter-container > span {
+  margin: 0 0.6rem; 
+  font-size: 1rem; 
+  cursor: pointer;
+}
+.letter:hover,.letter-container > span:hover{
+  color: #3d4592;
+}
 
-
+.spanMainDiv{
+  /* display: flex;
+  justify-content: space-between; */
+  width: 88%;
+margin: auto;
+}
+.spanMainDiv div{
+  display: flex;
+  flex-direction: column;
+}
+.spanMainDiv div span{
+  cursor: pointer;
+  margin: 0.1rem 0;
+}
+.spanMainDiv div span:hover{
+  color: #3d4592;
+}
+.spanMainDiv div span:first-child{
+  cursor: default;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.tital{
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem 0 1rem 0 ;
+}
+.spanMainDiv div span:first-child:hover{
+  color: #000;
+}
+.spanMainDiv div span:last-child{
+  text-decoration: underline;
+}
+/* .svgMainDiv{
+  display: flex;
+  width: 500px;
+} */
+ .footerNav{
+  width: 86.5%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .footerNav p{
+  /* margin-bottom: 0; */
+  margin: 0 0.4rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.svgDiv{
+  display: flex;
+}
+.wiFiSvg,.facebookSvg,.linkedInSvg,.twiterSvg,.youTubeSvg{
+  background-color: #a8a5a0;
+  padding: 0.6rem 0.45rem;
+  border-radius: 2.5rem;
+  margin: 0 0.3rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+}
+.facebookSvg:hover{
+  background-color: #251e47;
+}
+.linkedInSvg:hover{
+  background-color: #3d4592;
+}
+.twiterSvg:hover{
+background-color: #496afd;
+}
+.youTubeSvg:hover{
+background-color: #fc3508;
+}
+.wiFiSvg:hover{
+  background-color: #ff4f00;
+}
+.navLinks,.navLink{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+.navLinks li{
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.navLink li{
+  margin: 0 0.1rem;
+  cursor: pointer;
+}
+.navLink li span{
+  margin: 0 0.3rem;
+  color: #6d6c6b;
+}
+.navLinks li:hover,.navLink li:hover{
+  color: #3d4592;
+}
